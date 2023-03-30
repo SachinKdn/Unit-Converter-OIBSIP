@@ -228,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private String kgToGram(double kg) {
         double gram = kg * 1000;
+
         return String.valueOf(gram);
     }
     private String kgToMilligram(double kg) {
